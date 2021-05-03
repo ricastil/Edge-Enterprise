@@ -136,6 +136,15 @@ You can prevent your users from using Internet Explorer for sites that don't nee
    - Microsoft Edge version 45 or earlier
 9. Click **OK** or **Apply** to save these settings.
 
+## How to use IEChooser with IE Mode tab for DocMode testing
+
+The following can be leveraged to test DocModes in an IE Mode tab without having to configure the site in the Enterprise Site List Manager
+To do this:
+1. Launch the page in IE Mode either by using the Enterprise Site List or the the Open Sites In Internet Explorer option under Settings > More Tools (you will need to enable the allow Internet Explore Mode testing Policy)
+2. Next Launch IEChooser (under %windir%\System32\F12\IEChooser.exe)
+3. In the IEChooser window a list of sites opened will be previewed > Select desired site
+4. Use the Document Mode drop down menu under "Emulation" to change the IE Engine
+
 ## See also
 
 - [Microsoft Edge Enterprise landing page](https://aka.ms/EdgeEnterprise)
